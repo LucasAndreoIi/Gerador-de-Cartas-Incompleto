@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(85, 35, 16);
+    color: azure;
+    max-width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 100px;
+    padding: 10px;
+    text-align: center;
+    border-bottom:solid 9px rgb(58, 19, 7) ;
+    border-left:solid 9px rgb(58, 19, 7) ;
+    border-right:solid 9px rgb(58, 19, 7) ;
+    box-sizing: border-box;
+    background-image:url(../imagens/Designs/wood2.jpg) ;
+    background-size: cover;
+}
+
+header img{
+    width: 200px ;
+    height: 200px ;
+    max-height: 3000px;
+    margin-top: -30px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1400px;
+    background-image: url('../imagens/Designs/naturez.jpg');
+    background-repeat: round;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+main{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#ficha{
+    border-radius: 30px;
+    border: 10px solid rgba(94, 55, 11, 0.781);
+    background-color: rgb(126, 68, 20);
+    display: inline-block;
+    max-width: 100%;
+    min-width: 70%;
+    max-height: 600px;
+    min-height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url('../imagens/Designs/wood.jpg');
+    background-repeat: round;
+    background-size: cover;
+}
+
+#ficha p{
+    font-size: 30px;
+    display: inline-block;
+    color: chartreuse;
+    box-sizing: border-box;
+}
+
+#ficha input{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    font-size: 26px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+#ficha button{
+    color: chartreuse;
+    display: inline-block;
+    background-color: rgb(65, 24, 9);
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: black 2px 2px;
+    box-sizing: border-box;
+}
+
+#ficha button:hover{
+    color: brown;
+    cursor: pointer;
+    border: groove 2px black;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+#ficha img{
+    border-radius:40px ;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 4px solid rgb(90, 34, 12);
+}
+
+main h2{
+    margin-bottom: 70px;
+    box-sizing: border-box;
+}
+
+#info{
+    width: 450px;
+    height: 600px;
+    background-color: rgb(87, 44, 14);
+    box-sizing: border-box;
+    float: left;
+    padding: 40px;
+    margin-right: -900px;
+    margin-left: 200px;
+    border-radius: 40px;
+    border: 10px solid rgb(59, 26, 6);
+}
+
+
+#perfil{
+    border-radius: 40px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: -550px;
+    width: 40%;
+    height: 580px;
+    background-color: rgb(51, 34, 8);
+    border: 10px solid rgb(43, 19, 5);
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#perfil img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    border: 10px silver solid;
+    box-sizing: border-box;
+}
+.fichaplayer{
+    box-sizing: border-box;
+}
+#perfil p{
+    background-color: white;
+    display: block;
+    border-radius: 20px;
+    width: 240px;
+    height: 40px;
+    border: 2px solid black;
+    margin-left: 120px;
+    box-sizing: border-box;
+}
+
+#moneyJogador{
+    color: pink;
+}
+
+#jogo{
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+#btnjogos2{
+    max-width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+#btnjogos2 figure{
+    margin-top: 20px;
+    display: inline-block;
+    background-color: rgb(155, 55, 24);
+    width: 250px;
+    height: 200px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 5px solid rgb(73, 17, 17);
+}
+
+#btnjogos2 figure img{
+    width: 200px;
+    height: 150px;
+    border-radius: 0px 0px 20px 20px;
+    box-sizing: border-box;
+}
+
+#comum{
+    color: gray;
+}
+
+#incomum{
+    color: greenyellow;
+}
+
+#raro{
+    color: blue;
+}
+
+#epico{
+    color: blueviolet;
+}
+
+#lendario{
+    color: yellow;
+}
+
+#albumInterface{
+    display: inline-block;
+    height:600px ;
+    width: 500px;
+    margin-right: -550px;
+    margin-bottom: -140px;
+}
+
+#albumInterface img{
+    border: 4px solid rgb(82, 49, 11);
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    margin-left: 7px ;
+    margin-right: 7px;
+    background-color: azure;
+    display: inline-block;
+}
+
+.titles{
+    width: 100%;
+    height: 40px;
+    text-align:center ;
+    box-sizing: border-box;
+}
+
+#albumInterface figcaption{
+    display: inline-block;
+    font-size: 15px;
+    width: 90px;
+    height: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+#secComum{
+    padding: 8px;
+    border-radius: 20px 20px 0px 0px;
+    box-sizing: border-box;
+    border: 4px solid rgb(77, 76, 76);
+    display:block;
+    min-width:100% ;
+    min-height: 120px;
+    background-image: url('../imagens/Designs/cooper.jpg');
+}
+
+#secIncomum{
+    padding: 8px;
+    box-sizing: border-box;
+    border: 4px solid rgb(20, 87, 29);
+    display:block;
+    min-width:100% ;
+    min-height: 120px;
+    background-image: url('../imagens/Designs/green.jpg');
+}
+
+
+#secRaro{
+    padding: 8px;
+    box-sizing: border-box;
+    border: 4px solid rgb(26, 57, 116);
+    display:block;
+    min-width:100% ;
+    min-height: 120px;
+    background-image: url('../imagens/Designs/blue.jpg');
+}
+
+#secEpico{
+    padding: 8px;
+    box-sizing: border-box;
+    border: 4px solid rgb(77, 19, 116);
+    display:block;
+    min-width:100% ;
+    min-height: 120px;
+    background-image: url('../imagens/Designs/purple.jpg');
+}
+
+#secLendario{
+    padding: 8px;
+    box-sizing: border-box;
+    border: 4px solid rgb(126, 68, 15);
+    display:block;
+    align-content: space-around;
+    min-width:100% ;
+    min-height: 120px;
+    background-image: url('../imagens/Designs/yellow.jpg');
+    border-radius: 0px 0px 20px 20px;
+}
+
+#compras{
+    background-color: aliceblue;
+    margin-right: -500px;
+    margin-left: 130px;
+    float: left;
+    width: 400px;
+    height: 200px;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal CG</title>
+    <link rel="stylesheet" href="css/stylecard.css">
+    <link rel="icon" href="imagens/Designs/AnimalCG.png">
+</head>
+<body>
+    <header>
+        <img src="imagens/Designs/AnimalCG.png">
+    </header>
+    <main>
+        <div id="ficha">
+            <div class="caixaInput"><p>Nome:</p><input type="text" id="nomeJogador"></div>
+            <div class="caixaInput"><p>Apelido:</p><input type="text" id="apelidoJogador"></div>
+            <p>Foto: </p>
+            <div class="caixaInput"><button id="ant" class="btn1">Anterior</button><img id="fotojogador" src=""><button id="prox" class="btn1">Proxima</button></div>
+            <div class="caixaInput"><button id="btnPronto" class="btn1" class="btn1">Salvar</button> <a href="#packsilumator" class="btn1"><a href="#perfil"><button>Perfil</button></a></div>
+        </div>
+        <h2 id="packsimulator"></h2>
+        <div id="perfil">
+            <div class="fichaPlayer">
+                <img id="fotoPerfil" src="imagens/fotoVazia.jpg">
+                <p id="nomePerfil"></p>
+            </div>
+            <div class="fichaPlayer">
+                <p>Dinheiro:</p><p id="moneyFicha"></p>
+                <p>Clicks:</p><p id="clicksJogador"></p>
+                <p>Nível: </p><p id="levelJogador"></p>
+                <p>XP: </p><p id="xpJogador"></p>
+            </div>
+        </div>
+        <div id="albumInterface">
+            <div id="secComum">
+                <div>
+                    <img id="figAlbum1c" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum2c" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum3c" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum4c" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum5c" src="imagens/fotoVazia.jpg">
+                </div>
+                <div class="titles">
+                    <figcaption id="figAlbumT1c">Vazio</figcaption>
+                    <figcaption id="figAlbumT2c">Vazio</figcaption>
+                    <figcaption id="figAlbumT3c">Vazio</figcaption>
+                    <figcaption id="figAlbumT4c">Vazio</figcaption>
+                    <figcaption id="figAlbumT5c">Vazio</figcaption>
+                </div>
+            </div>
+            <div id="secIncomum">
+                <div>
+                    <img id="figAlbum1i" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum2i" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum3i" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum4i" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum5i" src="imagens/fotoVazia.jpg">
+                </div>
+                <div class="titles">
+                    <figcaption id="figAlbumT1i">Vazio</figcaption>
+                    <figcaption id="figAlbumT2i">Vazio</figcaption>
+                    <figcaption id="figAlbumT3i">Vazio</figcaption>
+                    <figcaption id="figAlbumT4i">Vazio</figcaption>
+                    <figcaption id="figAlbumT5i">Vazio</figcaption>
+                </div>
+            </div>
+            <div id="secRaro">
+                <div>
+                    <img id="figAlbum1r" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum2r" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum3r" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum4r" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum5r" src="imagens/fotoVazia.jpg">
+                </div>
+                <div class="titles">
+                    <figcaption id="figAlbumT1r">Vazio</figcaption>
+                    <figcaption id="figAlbumT2r">Vazio</figcaption>
+                    <figcaption id="figAlbumT3r">Vazio</figcaption>
+                    <figcaption id="figAlbumT4r">Vazio</figcaption>
+                    <figcaption id="figAlbumT5r">Vazio</figcaption>
+                </div>
+            </div>
+            <div id="secEpico">
+                <div>
+                    <img id="figAlbum1e" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum2e" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum3e" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum4e" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum5e" src="imagens/fotoVazia.jpg">
+                </div>
+                <div class="titles">
+                    <figcaption id="figAlbumT1e">Vazio</figcaption>
+                    <figcaption id="figAlbumT2e">Vazio</figcaption>
+                    <figcaption id="figAlbumT3e">Vazio</figcaption>
+                    <figcaption id="figAlbumT4e">Vazio</figcaption>
+                    <figcaption id="figAlbumT5e">Vazio</figcaption>
+                </div>
+            </div>
+            <div id="secLendario">
+                <div>
+                    <img id="figAlbum1l" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum2l" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum3l" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum4l" src="imagens/fotoVazia.jpg">
+                    <img id="figAlbum5l" src="imagens/fotoVazia.jpg">
+                </div>
+                <div class="titles">
+                    <figcaption id="figAlbumT1l">Vazio</figcaption>
+                    <figcaption id="figAlbumT2l">Vazio</figcaption>
+                    <figcaption id="figAlbumT3l">Vazio</figcaption>
+                    <figcaption id="figAlbumT4l">Vazio</figcaption>
+                    <figcaption id="figAlbumT5l">Vazio</figcaption>
+                </div>
+            </div>
+        </div>
+        <div id="info">
+            <h3>Dados do Jogador:</h3>
+        </div>
+        <div id="jogo">
+            <div id="btnjogos">
+                <button id="btnFarm">Farmar</button>
+                <button id="btnPack">Pacote(100$)</button>
+                <button id="btnUp">Upar Nivel</button>
+                <p id="moneyJogador"></p>
+            </div>
+            <div id="btnjogos2">
+                <figure>
+                    <img id="fig1" src="imagens/Designs/pack.png">
+                    <figcaption id="figcap1">Compre um Pacote</figcaption>
+                    <figcaption id="figxp1">.</figcaption>
+                </figure>
+                <figure>
+                    <img id="fig2" src="imagens/Designs/pack.png">
+                    <figcaption id="figcap2">Compre um Pacote</figcaption>
+                    <figcaption id="figxp2">.</figcaption>
+                </figure>
+                <figure>
+                    <img id="fig3" src="imagens/Designs/pack.png">
+                    <figcaption id="figcap3">Compre um Pacote</figcaption>
+                    <figcaption id="figxp3">.</figcaption>
+                </figure>
+                <figure>
+                    <img id="fig4" src="imagens/Designs/pack.png">
+                    <figcaption id="figcap4">Compre um Pacote</figcaption>
+                    <figcaption id="figxp4">.</figcaption>
+                </figure>
+                <figure>
+                    <img id="fig5" src="imagens/Designs/pack.png">
+                    <figcaption id="figcap5">Compre um Pacote</figcaption>
+                    <figcaption id="figxp5">.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="js/scriptcard.js"></script>
+</body>
+</html>
